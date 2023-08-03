@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.parent-div {
+  position: relative;
+  height: 100%;
+}
+
+.gray-row {
+  height: 70%;
+  background-color: #f0f0f0;
+}
+
+.red-row {
+  height: 30%;
+  background-color: #cb3931;
+}
+
+.center-div {
+  position: absolute;
+  top: 5%;
+  bottom: 10%;
+  left: 30%;
+  right: 20%;
+  height: 92%;
+  width: 40%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.corner-caption {
+  position: absolute;
+  top: calc(0% + 260px); 
+  left: 50%;
+  margin-top: 10%; 
+  color: #cb3931;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300; 
+}
+.corner-caption1 {
+  position: absolute;
+  top: calc(2% + 260px);
+  left: 50%;
+  margin-top: 10%; 
+  color: #cb3931;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300; 
+}
+.corner-caption2 {
+  position: absolute;
+  top: calc(4% + 260px); 
+  left: 50%;
+  margin-top: 10%; 
+  color: #cb3931;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300; 
+}
+.corner-image {
+  width: 320px;
+  height: 300px;
+}
+
+.info-box {
+  background-color: #f0f0f0;
+  margin-left: 10%;
+  padding: 20px;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.additional-text {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 28%; 
+  top: 0;
+  left: 0;
+  width: 30%;
+  font-size: 4em;
+  font-weight: 600; 
+}
+
+
+.info-text h1 {
+  font-size: 2em;
+  font-weight: 600; 
+}
+.social-icons{
+  margin-left: 75%;
+}
+.social-icons img {
+  margin-top:350px;
+  width: 15px;
+  margin-left: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.corner-text {
+  color: #cb3931;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 10%;
+  top: 0;
+  left: 0;
+  width: 30%;
+  font-size: 0.8em;
+  font-weight: 500; 
+}
+
+
+.corner-image {
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 90%;
+}
+
+.column h2 {
+  color: #cb3931;
+ 
+}
+
+
+.year {
+  font-style: italic;
+   
+}
+
+.Cname {
+  color: #cb3931;
+}
+
+.description {
+    color: gray; 
+    font-weight: 400; 
+}
